@@ -22,14 +22,8 @@ h3 {
     color: #4aaaa5;
 }
 
-p {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 18px;
-    color: #777;
-}
-
 /* White header background */
-#full {
+#header {
     float: left;
     background: #fff;
     border-bottom: 2px solid #ccc;
@@ -81,7 +75,7 @@ a:hover {
 }
 
 /* Clear float */
-#clear {
+.clear {
     clear: both;
 }
 
@@ -93,6 +87,9 @@ a:hover {
     border: 1px solid #ddd;
     padding: 15px;
     margin-left: 155px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
 }
 
 #title {
@@ -194,17 +191,15 @@ input[type=submit] {
     cursor: pointer;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    padding: 20px 0;
-    width: 100%;
-    background-color: #666;
-    text-align: center;
+#footer {
+    float: left;
+    background: #666;
     border-top: 8px solid #4aaaa5;
-}
-
-p.footer {
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 0;
     color: #fff;
     font-size: 12px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
