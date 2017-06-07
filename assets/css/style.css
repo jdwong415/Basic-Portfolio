@@ -154,7 +154,7 @@ a:hover {
 /* Start of Contact style */
 #form {
     float: left;
-    margin: 20px 0 10px 15px;
+    margin: 0px 0 10px 15px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
     color: #777;
@@ -175,7 +175,13 @@ input::placeholder {
 
 /* Form for message */
 #contact_msg {
+    margin-top: 10px;
     height: 200px;
+    width: 98%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* Submit button */
