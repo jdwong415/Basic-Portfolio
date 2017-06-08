@@ -52,7 +52,7 @@ header {
 #name {
     background-color: #4aaaa5;
     float: left;
-    padding: 25px 35px;
+    padding: 24px 35px;
     margin-left: 155px;
 }
 
@@ -61,7 +61,7 @@ header {
     float: left;
     margin-top: 32px;
     padding-right: 20px;
-    margin-left: 435px;
+    margin-left: 415px;
     border-right: thin solid #ccc;
 }
 
@@ -224,7 +224,7 @@ input[type=submit] {
 }
 
 .portfolio {
-    width: 290px;
+    width: 292px;
     height: 217.5px;
     margin: 0px 18px 30px 15px;
     position: relative;
@@ -232,7 +232,7 @@ input[type=submit] {
 }
 
 .portimage {
-    width: 290px;
+    width: 292px;
 }
 
 .porttitle {
